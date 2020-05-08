@@ -1,0 +1,82 @@
+
+
+.header { 
+    background-color: gray;
+    color: white;
+    height: 50px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+.options  {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+    align-content: stretch;
+}
+.logo, .options_item {
+    padding: 0 20px
+}
+.logo {
+    text-transform: uppercase;
+}
+.message {
+    background-color: black;
+    color: gold;
+    text-transform: uppercase;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    background-color: white;
+    color: black;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: space-around;
+}
+.row {
+    height: 15vh;
+    padding: 1%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around; 
+}
+
+.text, .picture {
+    padding: 5%;
+}
+
+.teal {
+    height: 90%;
+    width: 25%;
+    background-color: turquoise;
+}
+
+.gold {
+    height: 90%;
+    width: 44%;
+    background-color: goldenrod;
+}
+
+.footer {
+    background-color: rgb(53, 54, 83);
+    height: 100px;
+}
